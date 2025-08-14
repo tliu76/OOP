@@ -1,4 +1,4 @@
-Object-Oriented Ball Bounce Program  
+*Object-Oriented Ball Bounce Program  
 1) Starts by not showing any balls
 2) Every time the user types the letter b, the program should create a new ball.
 3) Create a Drop.py file containing a “Drop” class.  (I suggest starting with a copy of the Ball.py file.)
