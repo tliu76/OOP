@@ -43,4 +43,5 @@ pip install pygame
 python main.py
 
 ### Credits
-Built with Pygame https://www.pygame.org/news 
+Built with Pygame https://www.pygame.org/news
+Author: Tanxin (Tracy) — 2025
