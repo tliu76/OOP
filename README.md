@@ -1,1 +1,1 @@
-##Some project examples using object-oriented programming
+##Homework project examples using object-oriented programming
