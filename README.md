@@ -16,7 +16,7 @@ Press keys during runtime to add more objects and watch them animate.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Ball Bounce_Tanxin/  
 ├── __pycache__/               # Python cache files (ignored in GitHub)  
