@@ -26,7 +26,7 @@ Press keys during runtime to add more objects and watch them animate.
 - Python 3.8+
 - [Pygame](https://www.pygame.org/news)
 
-### Quick Install
+### Install
 ```bash
 # (optional) create a virtual environment
 python -m venv .venv
