@@ -15,11 +15,15 @@ Press keys during runtime to add more objects and watch them animate.
 ---
 
 ## Project Structure
-- `main.py` – the game loop (provided below)
-- `Ball.py` – defines the `Ball` class with `update()` and `draw()` methods
-- `Drop.py` – defines the `Drop` class with `update()` and `draw()` methods
-- `images/instructions.jpg` – an overlay shown at the bottom of the window
-
+Ball Bounce_Tanxin/
+├── pycache/ # Python cache files (ignored in GitHub)
+├── images/
+│ ├── instructions.jpg # Overlay image displayed in-game
+│ └── demo_screenshot.png # Optional screenshot/GIF for README
+├── Ball.py # Ball class
+├── Drop.py # Drop class
+├── main.py # Main game loop
+└── README.md # This file
 ---
 
 ## Requirements
