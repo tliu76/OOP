@@ -1,7 +1,46 @@
-*Object-Oriented Ball Bounce Program  
-1) Starts by not showing any balls
-2) Every time the user types the letter b, the program should create a new ball.
-3) Create a Drop.py file containing a “Drop” class.  (I suggest starting with a copy of the Ball.py file.)
-The Drop class should be similar to, but simpler than the Ball class.  The user should be able to create as many drops (Drop objects) as they want.
-Each drop should start start at some randomized X location, and at (or above) the top of the  window.  Every drop that is created should fall straight down at some random speed (e.g., between 3 and 6 pixels per frame).  When a drop “falls off the bottom”, it should be recycled, and relocated to above the window, so that it falls again.  (You can re-randomize the X position if you wish when the drop recycles).  The art is available in the "images" folder.
-4)  Every time the user types the letter d, the program should create a new drop.
+# Object-Oriented Ball Bounce Program  
+A tiny Pygame playground that spawns multiple bouncing **Ball** objects (and optional **Drop** objects) using an object-oriented design.  
+Press keys during runtime to add more objects and watch them animate.
+## Demo Features
+- Object-oriented design with `Ball` and `Drop` classes
+- Keyboard controls to spawn new objects at runtime
+- Fixed timestep loop with configurable FPS
+- Lightweight assets (single `images/instructions.jpg` overlay)
+
+## Controls
+- **B** — add a new **Ball**
+- **D** — add a new **Drop**
+- **Window close** — exit
+
+---
+
+## Project Structure
+- `main.py` – the game loop (provided below)
+- `Ball.py` – defines the `Ball` class with `update()` and `draw()` methods
+- `Drop.py` – defines the `Drop` class with `update()` and `draw()` methods
+- `images/instructions.jpg` – an overlay shown at the bottom of the window
+
+---
+
+## Requirements
+- Python 3.8+
+- [Pygame](https://www.pygame.org/news)
+
+### Quick Install
+```bash
+# (optional) create a virtual environment
+python -m venv .venv
+# activate it
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+# install pygame
+pip install pygame
+
+### Run it
+python main.py
+
+### Credits
+Built with Pygame https://www.pygame.org/news 
