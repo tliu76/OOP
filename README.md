@@ -14,18 +14,21 @@ Press keys during runtime to add more objects and watch them animate.
 
 ---
 
-## Project Structure
-Ball Bounce_Tanxin/
-├── __pycache__/               # Python cache files (ignored in GitHub)
-├── images/                    # Image assets
-│   ├── instructions.jpg       # Overlay image displayed in-game
-│   └── demo_screenshot.png    # Optional screenshot/GIF for README
-├── Ball.py                    # Ball class
-├── Drop.py                    # Drop class
-├── main.py                    # Main game loop
-└── README.md                  # This file
 ---
 
+## 📂 Project Structure
+
+Ball Bounce_Tanxin/  
+├── __pycache__/               # Python cache files (ignored in GitHub)  
+├── images/                    # Image assets  
+│   ├── instructions.jpg       # Overlay image displayed in-game  
+│   └── demo_screenshot.png    # Optional screenshot/GIF for README  
+├── Ball.py                    # Ball class  
+├── Drop.py                    # Drop class  
+├── main.py                    # Main game loop  
+└── README.md                  # This file  
+
+---
 ## Requirements
 - Python 3.8+
 - [Pygame](https://www.pygame.org/news)
